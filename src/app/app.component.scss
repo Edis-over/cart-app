@@ -1,0 +1,24 @@
+.container{
+  #app-title{
+    height:12vh;
+    background-color: #1d2834;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #main-body{
+    #app-sidebar{
+      padding:20px;
+    }
+    #app-content{
+      padding:30px;
+      color:#1d2834;
+      height:88vh;
+
+
+    }
+  }
+
+}
