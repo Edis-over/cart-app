@@ -1,0 +1,74 @@
+[
+  {
+    "id":1,
+    "name":"Pizza",
+    "price": 25,
+    "description":"Freshly baked pizza",
+    "picture":"https://cdn.pixabay.com/photo/2014/04/22/02/56/pizza-329523_960_720.jpg"
+  },
+  {
+    "id":2,
+    "name":"Pizza",
+    "price": 30,
+    "description":"Juiciest burgers in town",
+    "picture":"https://cdn.pixabay.com/photo/2015/04/20/13/25/burger-731298_960_720.jpg"
+  },
+  {
+    "id":3,
+    "name":"Fries",
+    "price": 8,
+    "description":"French fries with parmigiano ",
+    "picture":"https://cdn.pixabay.com/photo/2016/11/21/15/52/appetizer-1846083_960_720.jpg"
+  },
+  {
+    "id":4,
+    "name":"Ice cream cone",
+    "price": 5,
+    "description":"Ice cream in any flavor you want",
+    "picture":"https://cdn.pixabay.com/photo/2016/03/23/15/00/ice-cream-1274894_960_720.jpg"
+  },
+  {
+    "id":5,
+    "name":"Salmon",
+    "price": 20,
+    "description":"Finest salmon dish",
+    "picture":"https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_960_720.jpg"
+  },
+  {
+    "id":6,
+    "name":"Pancakes",
+    "price": 15,
+    "description":"Some pancakes for that sweet tooth in you",
+    "picture":"https://cdn.pixabay.com/photo/2017/01/16/17/45/pancake-1984716_960_720.jpg"
+  },
+  {
+    "id":7,
+    "name":"Fig salad",
+    "price": 15,
+    "description":"A delicious salad with a bit of everything",
+    "picture":"https://cdn.pixabay.com/photo/2017/01/16/17/45/pancake-1984716_960_720.jpg"
+  },
+
+  {
+    "id":8,
+    "name":"Barbeque",
+    "price": 35,
+    "description":"Perfectly cooked barbeque",
+    "picture":"https://cdn.pixabay.com/photo/2016/03/05/23/02/barbecue-1239434_960_720.jpg"
+
+  },
+  {
+    "id":9,
+    "name":"Sunny side up eggs",
+    "price": 13,
+    "description":"A perfect breakfast or any other meal you want it to be",
+    "picture":"https://cdn.pixabay.com/photo/2017/09/28/18/13/bread-2796393_960_720.jpg"
+  },
+  {
+    "id":10,
+    "name":"Pasta",
+    "price": 25,
+    "description":"Perfectly made pasta",
+    "picture":"https://cdn.pixabay.com/photo/2018/07/18/19/12/spaghetti-3547078_960_720.jpg"
+  }
+]
