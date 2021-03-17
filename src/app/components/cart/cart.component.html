@@ -1,4 +1,23 @@
 <div class="container">
-  <h2>Cart</h2>
-  <hr />
+  <div class="row">
+    <h2>Cart</h2>
+    <hr />
+  </div>
+
+  <div class="row">
+    <div class="container row" *ngFor="let item of items; let i = index">
+      <div class="col-1">
+        <p>{{ i + 1 }}</p>
+      </div>
+      <div class="col-2">
+        <p>Name: {{ item.name }}</p>
+      </div>
+      <div class="col">
+        <p>Price: {{ item.price }} RON</p>
+      </div>
+      <button class="btn btn-warning" (click)="this.cartService.removeItem(i)">
+        X
+      </button>
+    </div>
+  </div>
 </div>

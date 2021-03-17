@@ -1,0 +1,22 @@
+#products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .card {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    .card-body {
+      .picture-frame {
+        width: 258px;
+        height: 150px;
+        img {
+          max-width: 200px;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
