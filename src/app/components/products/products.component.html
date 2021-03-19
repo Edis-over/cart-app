@@ -11,9 +11,29 @@
           >
             Items in cart: {{ howManyItems() }}
           </button>
-          <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
-            <ul>
-              <li></li>
+          <div
+            ngbDropdownMenu
+            aria-labelledby="dropdownBasic1"
+            id="dropdownWindow"
+          >
+            <ul class="container-fluid">
+              <li class="row" *ngFor="let item of items; let i = index">
+                <div class="name col-5">{{ item.name }}</div>
+                <input
+                  type="number"
+                  class="col-3"
+                  [(ngModel)]="item.quantity"
+                  minlength="1"
+                />
+                <div class="col">{{ item.price * item.quantity }} RON</div>
+                <button
+                  class="btn btn-light"
+                  (click)="this.cartService.removeItem(i)"
+                >
+                  X
+                </button>
+              </li>
+              <a class="btn btn-primary" routerLink="/cart">To Cart</a>
             </ul>
           </div>
         </div>

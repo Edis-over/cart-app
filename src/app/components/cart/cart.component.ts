@@ -10,11 +10,24 @@ import { CartService } from 'src/app/services/cart.service';
 export class CartComponent implements OnInit {
   items = this.cartService.getItems();
 
+
+
   constructor(private cartService: CartService) { }
 
   ngOnInit(): void {
 
   }
+  isEmpty() {
+    if (this.items.length === 0) { return true }
 
+  }
+  empty() {
+    return this.items = null;
+  }
+  getTotal() {
+    let total = 0;
+    this.items.forEach(item => total += item.quantity * item.price)
+    return total;
+  }
 
 }

@@ -9,6 +9,7 @@ import { ProductsService } from 'src/app/services/products.service';
 })
 export class ProductsComponent implements OnInit {
   products: Object;
+  items: Array<any> = this.cartService.items;
 
   constructor(private service: ProductsService,
     private cartService: CartService) { }
@@ -26,7 +27,12 @@ export class ProductsComponent implements OnInit {
 
   }
   howManyItems() {
-    return this.cartService.items.length
+
+    let numberOfItems = 0;
+    this.items.forEach(item => {
+      numberOfItems += item.quantity;
+    })
+    return numberOfItems;
   }
 
 }

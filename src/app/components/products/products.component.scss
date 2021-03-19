@@ -20,3 +20,15 @@
     }
   }
 }
+#dropdownWindow {
+  width: 350px;
+
+  ul {
+    li {
+      margin: 5px;
+      .name {
+        text-align: start;
+      }
+    }
+  }
+}
